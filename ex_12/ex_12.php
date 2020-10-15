@@ -17,7 +17,8 @@ class Dolly
     }
 }
 
-function clone_object($object)
+function clone_object(object $object)
 {
-    return $object = clone $object;
+    $object2 = clone $object;
+    return $object2;
 }
