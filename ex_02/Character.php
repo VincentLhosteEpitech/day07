@@ -37,6 +37,7 @@ class Character{
 		$this->name = $name;
 	}
 }
+<<<<<<< HEAD
 
 /*$perso = new Character("Gérard");
 echo $perso->getName().PHP_EOL;
@@ -45,3 +46,6 @@ echo $perso->getAgility().PHP_EOL;
 echo $perso->getClasse().PHP_EOL;
 ?>
 */
+=======
+?>
+>>>>>>> 99c0aaadaea094209b465600d275d24b6eef00b7
