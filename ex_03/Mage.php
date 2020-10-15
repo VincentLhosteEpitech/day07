@@ -14,14 +14,14 @@ class Mage extends Character {
 		return static::CLASSE;
 	}
 	function attack(){
-		echo $this->name.": feel the power of my magic!".PHP_EOL;
+		echo $this->name.": Feel the power of my magic!".PHP_EOL;
 	}
 	function __construct($name){
 		$this->name = $name;
 		echo $name.": May the gods be with me.".PHP_EOL;
 	}
 	function __destruct(){
-		echo $this->name.": By the four gods, I passed away.".PHP_EOL;	
+		echo $this->name.": By the four gods, I passed away...".PHP_EOL;	
 	}
 }
 

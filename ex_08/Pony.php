@@ -13,48 +13,53 @@ class Pony
 
 	public function __get($property)
 	{
-		if ("gender" === $property)
-		{
-			echo "It’s not right to get a private attribute!\n";
-			return $this->gender;
-		}
-		elseif ("name" === $property)
-		{
-			echo "It’s not right to get a private attribute!\n";
-			return $this->name;
-		}
-		elseif ("color" === $property)
-		{
-			echo "It’s not right to get a private attribute!\n";
-			return $this->color;
-		}
-		else 
-			echo "There is no attribute:" . $property . ".\n";
+		echo "There is no attribute:" . $property . ".\n";
+	}
+
+	public function getGender()
+	{
+		echo "It's not right to get a private attribute!\n";
+		return $this->gender;
+	}
+	
+	public function getName()
+	{
+		echo "It's not right to get a private attribute!\n";
+		return $this->name;
+	}
+
+	public function getColor()
+	{
+		echo "It's not right to get a private attribute!\n";
+		return $this->color;
+	}
+
+	public function setGender($gender)
+	{
+		echo "It's not right to set a private attribute!\n";
+		return $this->gender = $gender;
+	}
+
+	public function setName($name)
+	{
+		echo "It's not right to set a private attribute!\n";
+		return $this->name = $name;
+	}
+
+	public function setColor($color)
+	{
+		echo "It's not right to set a private attribute!\n";
+		return $this->color = $color;
 	}
 
 	public function __set($property, $value)
 	{
-		if ("gender" === $property)
-		{
-			$this->gender = $value;
-		}
-		elseif ("name" === $property)
-		{
-			$this->name = $value;
-		}
-		elseif ("color" === $property)
-		{
-			$this->color = $value;
-		}
-		else
-		{
-			echo "There is no attribute:" . $property . ".\n";
-		}
+		echo "There is no attribute:" . $property . ".\n";
 	}
 
 	public function __toString()
 	{
-	    return("Don’t worry, I’m a pony!".PHP_EOL);
+	    return("Don't worry, I'm a pony!".PHP_EOL);
 	}
 
 	public function __call($method, $arguments)

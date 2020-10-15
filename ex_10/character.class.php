@@ -48,9 +48,9 @@ class Character
 
     public function __toString()
     {
-        if ($this->name == true)
-            return "My name is " . $this->name . ".\n";
-        else
+        if (is_int($this->name))
             return "My name is Character" . $this->name . "\n";
+        else
+            return "My name is " . $this->name . ".\n";
     }
 }

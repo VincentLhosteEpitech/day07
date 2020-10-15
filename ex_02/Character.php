@@ -1,16 +1,13 @@
 <?php
 
-include_once("IMovable.php");
-
-abstract class Character implements IMovable {
+class Character{
 	//variables
+	const CLASSE = "Character";
 	protected $name;
 	protected $life = 50;
 	protected $agility = 2;
-	protected $strengh = 2;
+	protected $strength = 2;
 	protected $wit = 2;
-	//constantes
-	const CLASSE = 'Character';
 
 	function getName() {
 		return $this->name;
@@ -24,8 +21,8 @@ abstract class Character implements IMovable {
 		return $this->agility;
 	}
 
-	function getStrengh() {
-		return $this->strengh;
+	function getStrength() {
+		return $this->strength;
 	}
 
 	function getWit() {
