@@ -1,8 +1,4 @@
 <?php
-<<<<<<< HEAD
-
-=======
->>>>>>> 6e15d1acd2210635fcc9ab62e4bd2e8e528e8157
 include_once("Character.php");
 
 class Warrior extends Character 
@@ -35,13 +31,10 @@ class Warrior extends Character
 /*$warrior = new Warrior("Jean-Luc");
 $warrior->attack();*/
 
-<<<<<<< HEAD
-$warrior = new Warrior("Jean-Luc");
+/*$warrior = new Warrior("Jean-Luc");
 $warrior->moveRight();
 $warrior->moveLeft();
 $warrior->moveUp();
 $warrior->moveDown();
-
-=======
->>>>>>> 6e15d1acd2210635fcc9ab62e4bd2e8e528e8157
+*/
 ?>
