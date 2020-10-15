@@ -8,7 +8,9 @@ class Dolly
 
     public function __construct($age, $animal, $doctor)
     {
-
+        $this->age = $age;
+        $this->animal = $animal;
+        $this->doctor = $doctor;
     }
 
     public function __clone()
@@ -17,8 +19,7 @@ class Dolly
     }
 }
 
-function clone_object(object $object)
+function clone_object($object)
 {
-    $object2 = clone $object;
-    return $object2;
+    return clone $object;
 }

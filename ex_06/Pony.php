@@ -13,7 +13,7 @@ class Pony
 
 	public function __toString()
 	{
-	    return("Don’t worry, I’m a pony!".PHP_EOL);
+	    return("Don't worry, I'm a pony!".PHP_EOL);
 	}
 
 	/**********************/

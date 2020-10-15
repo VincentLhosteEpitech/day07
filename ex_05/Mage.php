@@ -21,7 +21,7 @@ class Mage extends Character {
 
 	function __construct($name){
 		$this->name = $name;
-		echo $name.": May the gods be with me...".PHP_EOL;
+		echo $name.": May the gods be with me.".PHP_EOL;
 	}
 
 /*----
@@ -52,7 +52,7 @@ class Mage extends Character {
 
 
 	function __destruct(){
-		echo $this->name.": By the four gods, I passed away.".PHP_EOL;	
+		echo $this->name.": By the four gods, I passed away...".PHP_EOL;	
 	}
 }
 
