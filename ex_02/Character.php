@@ -1,5 +1,8 @@
 <?php
-class Character{
+
+include_once("IMovable.php");
+
+abstract class Character implements IMovable {
 	//variables
 	protected $name;
 	protected $life = 50;
@@ -37,15 +40,4 @@ class Character{
 		$this->name = $name;
 	}
 }
-<<<<<<< HEAD
-
-/*$perso = new Character("Gérard");
-echo $perso->getName().PHP_EOL;
-echo $perso->getLife().PHP_EOL;
-echo $perso->getAgility().PHP_EOL;
-echo $perso->getClasse().PHP_EOL;
 ?>
-*/
-=======
-?>
->>>>>>> 99c0aaadaea094209b465600d275d24b6eef00b7

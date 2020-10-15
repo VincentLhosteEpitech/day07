@@ -5,15 +5,15 @@ include_once("Character.php");
 class Warrior extends Character 
 {
     Const CLASSE = "Warrior";
-    protected $name;
-    protected $life = 100;
-    protected $agility = 10;
-    protected $strength = 8;
-    protected $wit = 3;
     
     public function __construct($name)
-    {
+    {   
+        parent:: __construct($name);
         $this->name = $name;
+        $this->life = 100;
+        $this->agility = 10;
+        $this->strength = 8;
+        $this->wit = 3;
 
         echo $this->name . ": I'll engrave my name in history!\n";
     }
@@ -30,6 +30,6 @@ class Warrior extends Character
 
 
 /*$warrior = new Warrior("Jean-Luc");
-$warrior->attack();
-*/
+$warrior->attack();*/
+
 ?>
