@@ -1,11 +1,11 @@
 <?php
 class Pony
 {
-	protected $gender;
-	protected $name;
-	protected $color;
+	public $gender;
+	public $name;
+	public $color;
 
-	function __construct($gender, $name, $color){
+	public function __construct($gender, $name, $color){
 		$this->gender = $gender;
 		$this->name = $name;
 		$this->color = $color;

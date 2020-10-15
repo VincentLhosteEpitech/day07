@@ -18,37 +18,37 @@ class Pony
 
 	public function getGender()
 	{
-		echo "It’s not right to get a private attribute!\n";
+		echo "It's not right to get a private attribute!\n";
 		return $this->gender;
 	}
 	
 	public function getName()
 	{
-		echo "It’s not right to get a private attribute!\n";
+		echo "It's not right to get a private attribute!\n";
 		return $this->name;
 	}
 
 	public function getColor()
 	{
-		echo "It’s not right to get a private attribute!\n";
+		echo "It's not right to get a private attribute!\n";
 		return $this->color;
 	}
 
 	public function setGender($gender)
 	{
-		echo "It’s not right to set a private attribute!\n";
+		echo "It's not right to set a private attribute!\n";
 		return $this->gender = $gender;
 	}
 
 	public function setName($name)
 	{
-		echo "It’s not right to set a private attribute!\n";
+		echo "It's not right to set a private attribute!\n";
 		return $this->name = $name;
 	}
 
 	public function setColor($color)
 	{
-		echo "It’s not right to set a private attribute!\n";
+		echo "It's not right to set a private attribute!\n";
 		return $this->color = $color;
 	}
 
@@ -59,7 +59,7 @@ class Pony
 
 	public function __toString()
 	{
-	    return("Don’t worry, I’m a pony!".PHP_EOL);
+	    return("Don't worry, I'm a pony!".PHP_EOL);
 	}
 
 	public function __call($method, $arguments)

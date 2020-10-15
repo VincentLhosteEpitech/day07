@@ -13,7 +13,7 @@ class Dolly
 
     public function __clone()
     {
-        echo "I will survive!\n";
+        echo "I will survive !\n";
     }
 }
 
