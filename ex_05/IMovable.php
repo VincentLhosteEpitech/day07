@@ -5,4 +5,5 @@ interface IMovable
     public function moveLeft();
     public function moveUP();
     public function moveDown();
+    public function unsheathe();
 }

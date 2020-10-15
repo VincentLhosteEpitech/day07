@@ -58,6 +58,14 @@ abstract class Character implements IMovable {
 	{
 		echo $this->name . ": moves down.\n";
 	}
+<<<<<<< HEAD
+
+	final public function unsheathe()
+	{
+		echo $this->name . ": unsheathes his weapon.\n";
+	}
+=======
+>>>>>>> refs/remotes/origin/master
 }
 
 /*$warrior = new Warrior("Jean-Luc");

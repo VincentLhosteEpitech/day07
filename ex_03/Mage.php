@@ -1,9 +1,5 @@
 <?php
 include_once("Character.php");
-<<<<<<< HEAD
-=======
-
->>>>>>> 6e15d1acd2210635fcc9ab62e4bd2e8e528e8157
 class Mage extends Character {
 
 	protected $name;
