@@ -16,9 +16,20 @@ class Pony
 	    return("Don’t worry, I’m a pony!".PHP_EOL);
 	}
 
+	public function __call($method, $arguments)
+	{
+		echo "I don't know what to do...\n";
+	}
+
+	public function speak()
+	{
+		echo "Hiii hiii hiii\n";
+	}
+
 	/**********************/
 	function __destruct(){
 		echo "I'm a dead pony.".PHP_EOL;
 	}
 }
+
 ?>
