@@ -38,9 +38,10 @@ class Character{
 	}
 }
 
-$perso = new Character("Gérard");
+/*$perso = new Character("Gérard");
 echo $perso->getName().PHP_EOL;
 echo $perso->getLife().PHP_EOL;
 echo $perso->getAgility().PHP_EOL;
 echo $perso->getClasse().PHP_EOL;
 ?>
+*/
