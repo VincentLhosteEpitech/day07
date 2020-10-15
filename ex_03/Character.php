@@ -1,5 +1,4 @@
 <?php
-
 include_once("IMovable.php");
 
 abstract class Character implements IMovable {
