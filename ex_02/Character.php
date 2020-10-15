@@ -30,7 +30,7 @@ class Character{
 	}
 
 	function getClasse() {
-		return CLASSE;
+		return self::CLASSE;
 	}
 
 	function __construct($name) {
