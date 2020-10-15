@@ -1,5 +1,4 @@
 <?php
-
 interface IMovable
 {
     public function moveRight();
